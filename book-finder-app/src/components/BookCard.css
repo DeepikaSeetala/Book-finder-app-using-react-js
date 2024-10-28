@@ -1,0 +1,13 @@
+/* src/components/BookCard.css */
+.book-card {
+    background-color: white; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    margin: 15px; 
+    padding: 15px; 
+    width: 200px; 
+}
+
+.book-card img {
+    max-width: 100%; 
+}

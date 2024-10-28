@@ -1,0 +1,25 @@
+/* src/pages/Home.css */
+
+.home {
+    padding: 20px;
+    text-align: center; /* Center align text */
+}
+
+.intro-text {
+    font-size: 18px; /* Larger font size for better readability */
+    color: #333; /* Dark gray color */
+    margin: 10px 0 20px; /* Margin for spacing */
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align book cards */
+    margin-top: 20px; /* Space above book list */
+}
+
+.book-list p {
+    width: 100%; /* Full width for no books found message */
+    color: #555; /* Gray color for the message */
+    font-size: 18px; /* Slightly larger font */
+}

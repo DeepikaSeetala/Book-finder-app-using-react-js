@@ -1,0 +1,30 @@
+/* src/components/Search.css */
+
+.search-form {
+    display: flex;
+    justify-content: center; /* Center align form */
+    margin-bottom: 20px; /* Space below the form */
+}
+
+.search-form input {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    width: 300px; /* Fixed width for input */
+    font-size: 16px; /* Larger font for better readability */
+}
+
+.search-form button {
+    padding: 10px;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-left: 10px; /* Space between input and button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.search-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

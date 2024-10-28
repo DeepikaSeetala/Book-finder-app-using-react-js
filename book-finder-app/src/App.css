@@ -1,0 +1,58 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.navbar h1 {
+  display: inline-block;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-form input {
+  padding: 10px;
+  width: 300px;
+}
+
+.search-form button {
+  padding: 10px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
